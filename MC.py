@@ -4,9 +4,9 @@ import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt 
 import datetime as dt 
-import yfinance as yf
+import yfinance as yf #workaroud 
 
-#from pandas_datareader import data as pdr   #yahoo specific data (not working!)
+#from pandas_datareader import data as pdr   #yahoo specific data (not working!) 
 
 #import data
 def get_data(stocks,start,end):
